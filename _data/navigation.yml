@@ -1,0 +1,12 @@
+- title: About
+  url: /about/
+  nav_order: 1
+- title: Group
+  url: /group/
+  nav_order: 2  
+- title: Publications
+  url: /publications/
+  nav_order: 3
+- title: News
+  url: /news/
+  nav_order: 4

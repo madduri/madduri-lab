@@ -2,14 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Madduri Lab # the website title (if blank, full name will be used instead)
+first_name: Ravi
+middle_name: K.
+last_name: Madduri
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  For collaborations and inquiries, email: rkmadduri@anl.gov
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Madduri Lab focuses on computational science, artificial intelligence, and biomedical research at Argonne National Laboratory. Our work spans high-performance computing, privacy-preserving federated learning, AI for genomics, and large-scale data analysis for scientific discovery.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -18,8 +18,8 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
+url: https://madduri.github.io/madduri-lab # the base hostname & protocol for your site
+baseurl: /madduri-lab # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -147,77 +147,6 @@ collections:
   books:
     output: true
   news:
-    defaults:
-      layout: post
-    output: true
-  projects:
-    output: true
-
-# -----------------------------------------------------------------------------
-# Jekyll settings
-# -----------------------------------------------------------------------------
-
-# Markdown and syntax highlight
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    css_class: "highlight"
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
-      start_line: 1
-
-# Includes & excludes
-include: ["_pages", "_scripts"]
-exclude:
-  - bin/
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - Dockerfile
-  - docker-compose.yml
-  - docker-compose-slim.yml
-  - FAQ.md
-  - Gemfile
-  - Gemfile.lock
-  - INSTALL.md
-  - LICENSE
-  - lighthouse_results/
-  - package.json
-  - package-lock.json
-  - _pages/about_einstein.md
-  - purgecss.config.js
-  - README.md
-  - readme_preview/
-  - vendor
-keep_files:
-  - CNAME
-  - .nojekyll
-
-# Plug-ins
-plugins:
-  - jekyll-archives-v2
-  - jekyll-email-protect
-  - jekyll-feed
-  - jekyll-get-json
-  - jekyll-imagemagick
-  - jekyll-jupyter-notebook
-  - jekyll-link-attributes
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll-regex-replace
-  - jekyll/scholar
-  - jekyll-sitemap
-  - jekyll-tabs
-  - jekyll-terser
-  - jekyll-toc
-  - jekyll-twitter-plugin
-  - jemoji
-
-# Sitemap settings
-defaults:
   - scope:
       path: "assets"
     values:
@@ -263,9 +192,10 @@ display_categories: ["external-services"] # these categories will be displayed o
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
+# Personal info
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Madduri]
+  first_name: [Ravi, K.]
 
   style: apa
   locale: en
@@ -293,7 +223,8 @@ scholar:
 enable_publication_badges:
   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  google_# Personal info
+scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
   inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output

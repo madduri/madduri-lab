@@ -1,0 +1,41 @@
+# Lab Members Data
+
+- id: alexis_rodriguez
+  name: Alexis Rodriguez
+  position: Computational Scientist
+  research_interests: High-performance computing, GPU acceleration, computational genomics, biomedical data analysis
+  image: /assets/img/members/alexis_rodriguez.jpg
+  email: alexis@anl.gov
+  google_scholar: ""
+  website: ""
+  bio: "Computational scientist specializing in GPU acceleration and large-scale genomics analysis."
+
+- id: zilinghan_li
+  name: Zilinghan Li
+  position: Computer Scientist
+  research_interests: Federated learning, privacy-preserving machine learning, distributed systems, APPFL framework
+  image: /assets/img/members/zilinghan_li.jpg
+  email: zilinghan@anl.gov
+  google_scholar: ""
+  website: ""
+  bio: "Specialist in federated learning and privacy-preserving AI for biomedical applications."
+
+- id: tarak_nandi
+  name: Tarak Nath Nandi
+  position: Computational Biologist
+  research_interests: Genomics, bioinformatics, computational pathology, RNA analysis
+  image: /assets/img/members/tarak_nandi.jpg
+  email: tnandi@anl.gov
+  google_scholar: ""
+  website: ""
+  bio: "Expert in computational genomics and high-throughput biological data analysis."
+
+- id: mitch_connery
+  name: Mitch Connery
+  position: Data Scientist
+  research_interests: Bioinformatics, data pipelines, scientific workflows, machine learning
+  image: /assets/img/members/mitch_connery.jpg
+  email: mitch@anl.gov
+  google_scholar: ""
+  website: ""
+  bio: "Data scientist focused on building scalable bioinformatics pipelines and workflows."
