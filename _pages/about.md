@@ -8,7 +8,7 @@ profile:
   align: right
   image: ravi-madduri.png
   image_circular: false # crops the image to make it circular
-    more_info: >
+  more_info: >
     <p>Senior Scientist and Group Leader</p>
     <p>Argonne National Laboratory</p>
     <p>Computational Science and AI Research</p>
