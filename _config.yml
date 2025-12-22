@@ -1,234 +1,251 @@
-baseurl: /madduri-lab
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: Madduri Lab # website title (if blank, full name will be used instead)
+first_name: Ravi
+middle_name: K.
+last_name: Madduri
+contact_note: >
+  For collaborations and inquiries, email: rkmadduri@anl.gov
+description: > # describes purpose of your site
+  Madduri Lab focuses on computational science, artificial intelligence, and biomedical research at Argonne National Laboratory. Our work spans high-performance computing, privacy-preserving federated learning, AI for genomics, and large-scale data analysis for scientific discovery.
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website, computational-science, ai-research
+lang: en # language of your site (for example: en, fr, cn, ru, etc.)
+icon: 🧬 # emoji used as favicon (alternatively, provide image name in /assets/img/)
+
+url: https://madduri.github.io/madduri-lab # base hostname & protocol for your site
+baseurl: /madduri-lab # subpath of your site, e.g. /blog/. Leave blank for root
+last_updated: false # set to true if you want to display last updated in footer
+
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+
+# repo color theme
+repo_theme_light: default
+repo_theme_dark: dark
+repo_trophies:
+  enabled: true
+  theme_light: flat
+  theme_dark: gitdimmed
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: true
+search_enabled: true
+socials_in_search: true
+posts_in_search: true
 bib_search: true
+
+# Dimensions
+max_width: 930px
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
 collections:
   books:
     output: true
   news:
-    defaults:
-      layout: post
     output: true
   projects:
     output: true
-contact_note: 'For collaborations and inquiries, email: rkmadduri@anl.gov
 
-  '
-defaults:
-- scope:
-    path: assets
-  values:
-    sitemap: false
-description: 'Madduri Lab focuses on computational science, artificial intelligence,
-  and biomedical research at Argonne National Laboratory. Our work spans high-performance
-  computing, privacy-preserving federated learning, AI for genomics, and large-scale
-  data analysis for scientific discovery.
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
 
-  '
-display_categories:
-- external-services
-display_tags:
-- formatting
-- images
-- links
-- math
-- code
-- blockquotes
-enable_bing_verification: false
-enable_cronitor_analytics: false
-enable_darkmode: true
-enable_google_analytics: false
-enable_google_verification: false
-enable_masonry: true
-enable_math: true
-enable_medium_zoom: true
-enable_navbar_social: false
-enable_openpanel_analytics: false
-enable_pirsch_analytics: false
-enable_progressbar: true
-enable_project_categories: true
-enable_tooltips: false
-enable_video_embedding: false
-exclude:
-- bin/
-- CONTRIBUTING.md
-- CUSTOMIZE.md
-- Dockerfile
-- docker-compose.yml
-- docker-compose-slim.yml
-- FAQ.md
-- Gemfile
-- Gemfile.lock
-- INSTALL.md
-- LICENSE
-- lighthouse_results/
-- package.json
-- package-lock.json
-- _pages/about_einstein.md
-- purgecss.config.js
-- README.md
-- readme_preview/
-- vendor
-external_links:
-  enabled: true
-  exclude: null
-  rel: external nofollow noopener
-  target: _blank
-first_name: Ravi
-footer_fixed: true
-footer_text: 'Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
-  with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted
-  by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-
-  '
+# Markdown and syntax highlight
+markdown: kramdown
 highlighter: rouge
-icon: "\U0001F9EC"
-imagemagick:
-  enabled: true
-  input_directories:
-  - assets/img/
-  input_formats:
-  - .jpg
-  - .jpeg
-  - .png
-  - .tiff
-  - .gif
-  output_formats:
-    webp: -quality 85
-  widths:
-  - 480
-  - 800
-  - 1400
-include:
-- _pages
-- _scripts
-jekyll-archives:
-  books:
-    enabled:
-    - year
-    - tags
-    - categories
-  posts:
-    enabled:
-    - year
-    - tags
-    - categories
-    permalinks:
-      categories: /blog/:type/:name/
-      tags: /blog/:type/:name/
-      year: /blog/:year/
-jekyll-minifier:
-  compress_javascript: false
-  exclude:
-  - robots.txt
-  - assets/js/search/*.js
-keep_files:
-- CNAME
-- .nojekyll
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website, computational-science,
-  ai-research
 kramdown:
   input: GFM
   syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
     block:
       line_numbers: false
       start_line: 1
-    css_class: highlight
-    span:
-      line_numbers: false
-lang: en
-last_name: Madduri
-last_updated: false
-lazy_loading_images: true
-markdown: kramdown
-max_width: 930px
-middle_name: K.
-navbar_fixed: true
-pagination:
-  enabled: true
+
+# Includes & excludes
+include: ["_pages", "_scripts"]
+exclude:
+  - bin/
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - FAQ.md
+  - Gemfile
+  - Gemfile.lock
+  - INSTALL.md
+  - LICENSE
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - _pages/about_einstein.md
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - vendor
+keep_files:
+  - CNAME
+  - .nojekyll
+
+# Plug-ins
 plugins:
-- jekyll-archives-v2
-- jekyll-email-protect
-- jekyll-feed
-- jekyll-get-json
-- jekyll-imagemagick
-- jekyll-jupyter-notebook
-- jekyll-link-attributes
-- jekyll-minifier
-- jekyll-paginate-v2
-- jekyll-regex-replace
-- jekyll-scholar
-- jekyll-sitemap
-- jekyll-tabs
-- jekyll-terser
-- jekyll-toc
-- jekyll-twitter-plugin
-- jemoji
-posts_in_search: true
-related_blog_posts:
-  enabled: true
-  max_related: 5
-repo_theme_dark: dark
-repo_theme_light: default
-repo_trophies:
-  enabled: true
-  theme_dark: gitdimmed
-  theme_light: flat
+  - jekyll-archives-v2
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll-scholar
+  - jekyll-sitemap
+  - jekyll-tabs
+  - jekyll-terser
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
+
+# Sitemap settings
 sass:
   style: compressed
-scholar:
-  bibliography: papers.bib
-  bibliography_template: bib
-  details_dir: bibliography
-  details_link: Details
-  enable_publication_badges:
-    altmetric: true
-    dimensions: true
-    google_scholar: true
-    inspirehep: true
-  enable_publication_thumbnails: true
-  filtered_bibtex_keywords:
-  - abbr
-  - abstract
-  - additional_info
-  - altmetric
-  - annotation
-  - arxiv
-  - award
-  - award_name
-  - bibtex_show
-  - blog
-  - code
-  - google_scholar_id
-  - html
-  - inspirehep_id
-  - pdf
-  - poster
-  - preview
-  - selected
-  - slides
-  - supp
-  - video
-  - website
-  first_name:
-  - Ravi
-  - K.
-  group_by: year
-  group_order: descending
-  join_strings: true
-  last_name:
-  - Madduri
-  locale: en
-  max_author_limit: 3
-  more_authors_animation_delay: 10
-  query: '@*'
-  replace_strings: true
-  source: /_bibliography/
-  style: apa
-search_enabled: true
-serve_og_meta: false
-serve_schema_org: false
-socials_in_search: true
+
+# -----------------------------------------------------------------------------
+# Jekyll Minifier
+# -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  compress_javascript: false
+  exclude: ["robots.txt", "assets/js/search/*.js"]
+
+# -----------------------------------------------------------------------------
+# Terser
+# -----------------------------------------------------------------------------
+
 terser:
   compress:
     drop_console: true
-title: Madduri Lab
-url: https://madduri.github.io/madduri-lab
+
+# -----------------------------------------------------------------------------
+# Jekyll Archives
+# -----------------------------------------------------------------------------
+
+jekyll-archives:
+  posts:
+    enabled: [year, tags, categories]
+    permalinks:
+      year: "/blog/:year/"
+      tags: "/blog/:type/:name/"
+      categories: "/blog/:type/:name/"
+  books:
+    enabled: [year, tags, categories]
+
+display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"]
+display_categories: ["external-services"]
+
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+
+scholar:
+  last_name: [Madduri]
+  first_name: [Ravi, K.]
+  
+  style: apa
+  locale: en
+  
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  
+  replace_strings: true
+  join_strings: true
+  
+  details_dir: bibliography
+  details_link: Details
+  
+  query: "@*"
+  group_by: year
+  group_order: descending
+  
+  # Filter out certain bibtex entry keywords used internally from bib output
+  filtered_bibtex_keywords:
+    [
+      abbr, abstract, additional_info, altmetric, annotation, arxiv, award, award_name, bibtex_show, blog, code, google_scholar_id, html, inspirehep_id, pdf, poster, preview, selected, slides, supp, video, website,
+    ]
+  
+  # Maximum number of authors to be shown for each publication (more authors are visible on click)
+  max_author_limit: 3
+  more_authors_animation_delay: 10
+  
+  # Enables publication thumbnails
+  enable_publication_thumbnails: true
+
+# -----------------------------------------------------------------------------
+# Jekyll Link Attributes
+# -----------------------------------------------------------------------------
+
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+  exclude:
+
+# -----------------------------------------------------------------------------
+# Responsive WebP Images
+# -----------------------------------------------------------------------------
+
+imagemagick:
+  enabled: false
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img/
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+    - ".gif"
+  output_formats:
+    webp: "-quality 85"
+
+# Lazy loading images
+lazy_loading_images: true
+
+# -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
+
+enable_google_analytics: false
+enable_cronitor_analytics: false
+enable_pirsch_analytics: false
+enable_openpanel_analytics: false
+enable_google_verification: false
+enable_bing_verification: false
+enable_masonry: true
+enable_math: true
+enable_tooltips: false
+enable_navbar_social: false
+enable_project_categories: true
+enable_medium_zoom: true
+enable_progressbar: true
+enable_video_embedding: false
