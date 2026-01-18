@@ -103,3 +103,8 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          force: false
+          clean: true
+          clean-exclude: |
+            .nojekyll
+            CNAME
