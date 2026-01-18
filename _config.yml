@@ -77,7 +77,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts", ".nojekyll"]
+include: ["_pages", "_scripts", ".nojekyll", "CNAME"]
 exclude:
   - bin/
   - CONTRIBUTING.md
