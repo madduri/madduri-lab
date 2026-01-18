@@ -22,7 +22,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -38,7 +38,3 @@ His research spans multiple domains:
 Dr. Madduri has published over 150 papers in leading journals and conferences, contributing to foundational advances in computational infrastructure, bioinformatics, and AI applications for healthcare. His work on frameworks like APPFL and MapperTrac enables privacy-preserving collaboration across institutions while maintaining high-performance capabilities.
 
 Current research interests include scaling AI models for biomedical applications, developing privacy-preserving methods for cross-institutional collaboration, and optimizing computational infrastructure for next-generation scientific discovery.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
