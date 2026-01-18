@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://lab.madduri.us/sitemap.xml
