@@ -9,8 +9,6 @@
       value: Argonne National Laboratory, Data Science and Learning Division
     - name: Email
       value: madduri@anl.gov
-    - name: Phone
-      value: 630.965.7935
 
 - title: Education
   type: time_table
