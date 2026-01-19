@@ -4,7 +4,7 @@ permalink: /group/
 title: group
 description: Members of the Madduri Lab at Argonne National Laboratory.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <div class="people">
