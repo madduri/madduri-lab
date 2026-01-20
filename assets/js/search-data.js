@@ -53,6 +53,31 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-12-20-website-launch.html";
+            },},{id: "projects-large-scale-biomedical-discovery-through-hpc",
+          title: 'Large-Scale Biomedical Discovery through HPC',
+          description: "Enabling scientific questions to be addressed at unprecedented scale through high-performance computing and population-level biomedical datasets",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_hpc_biomedical_discovery.html";
+            },},{id: "projects-national-cyberinfrastructure-for-biomedical-data",
+          title: 'National Cyberinfrastructure for Biomedical Data',
+          description: "Building foundational infrastructure for secure, scalable data sharing and analysis across institutions",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_national_cyberinfrastructure.html";
+            },},{id: "projects-privacy-preserving-federated-learning",
+          title: 'Privacy-Preserving Federated Learning',
+          description: "Advancing trustworthy AI through federated learning frameworks that enable collaboration without centralizing sensitive data",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_privacy_preserving_federated_learning.html";
+            },},{id: "projects-confidential-computing-amp-secure-learning-environments",
+          title: 'Confidential Computing &amp;amp; Secure Learning Environments',
+          description: "Establishing secure computing environments for advanced analytics on highly sensitive biomedical datasets",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_confidential_computing.html";
+            },},{id: "projects-translating-advanced-computing-into-biomedical-impact",
+          title: 'Translating Advanced Computing into Biomedical Impact',
+          description: "Leadership and coordination of multidisciplinary teams spanning national laboratories, federal agencies, and academic institutions",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_leadership_coordination.html";
             },},{
         id: 'social-email',
         title: 'email',
