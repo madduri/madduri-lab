@@ -30,12 +30,12 @@
   website: ""
   bio: "Expert in computational genomics and high-throughput biological data analysis."
 
-- id: mitch_connery
-  name: Mitch Connery
-  position: Data Scientist
-  research_interests: Bioinformatics, data pipelines, scientific workflows, machine learning
-  image: /assets/img/members/mitch_connery.jpg
-  email: mitch@anl.gov
-  google_scholar: ""
-  website: ""
-  bio: "Data scientist focused on building scalable bioinformatics pipelines and workflows."
+- id: mitch_conery
+  name: Mitch Conery
+  position: Post-Doctoral Fellow
+  research_interests: Statistical genetics, bioinformatics, data pipelines, scientific workflows, machine learning
+  image: /assets/img/members/mitch_conery.jpg
+  email: mconery@anl.gov
+  google_scholar: "https://scholar.google.com/citations?user=DZyukVgAAAAJ&hl=en"
+  website: "https://github.com/mconery"
+  bio: "Computational geneticist focused on building scalable bioinformatics pipelines and workflows."
