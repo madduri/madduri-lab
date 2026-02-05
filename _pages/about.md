@@ -6,7 +6,7 @@ subtitle: <a href='#'>Madduri Lab</a>. Argonne National Laboratory. Research. In
 
 profile:
   align: right
-  image: ravi-madduri.png
+  image: ravi-madduri.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Senior Scientist and Group Leader</p>

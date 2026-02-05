@@ -244,7 +244,7 @@ enable_bing_verification: false
 enable_masonry: true
 enable_math: true
 enable_tooltips: false
-enable_navbar_social: false
+enable_navbar_social: true
 enable_project_categories: true
 enable_medium_zoom: true
 enable_progressbar: true

@@ -2,7 +2,7 @@
 layout: page
 title: Large-Scale Biomedical Discovery through HPC
 description: Enabling scientific questions to be addressed at unprecedented scale through high-performance computing and population-level biomedical datasets
-img:
+img: assets/img/projects/hpc-biomedical.svg
 importance: 1
 category: research
 ---
