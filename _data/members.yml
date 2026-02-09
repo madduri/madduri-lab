@@ -22,13 +22,13 @@
 
 - id: tarak_nandi
   name: Tarak Nath Nandi
-  position: Computational Biologist
-  research_interests: Genomics, bioinformatics, computational pathology, RNA analysis
-  image: /assets/img/members/tarak_nandi.jpg
+  position: Assistant Computational Scientist
+  research_interests: Cancer biology, computational genomics/epigenomics/metabolomics, structural variant calling, in-silico perturbation analysis, protein design, AI foundation models for biomedicine, multimodal learning, multi-agent systems.
+  image: /assets/img/members/tarak_nandi.jpeg
   email: tnandi@anl.gov
-  google_scholar: ""
-  website: ""
-  bio: "Expert in computational genomics and high-throughput biological data analysis."
+  google_scholar: "https://scholar.google.com/citations?user=bOi9SDUAAAAJ&hl=en&oi=ao"
+  website: "https://www.anl.gov/profile/tarak-nath-nandi"
+  bio: "Computational biologist focusing on developing HPC and AI methods for cancer biology."
 
 - id: mitch_conery
   name: Mitch Conery
