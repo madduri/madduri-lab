@@ -39,3 +39,13 @@
   google_scholar: "https://scholar.google.com/citations?user=DZyukVgAAAAJ&hl=en"
   website: "https://github.com/mconery"
   bio: "Computational geneticist focused on building scalable bioinformatics pipelines and workflows."
+
+- id: pallavi_surana
+  name: Pallavi Surana
+  position: Post-Doctoral Fellow
+  research_interests: Bioinformatics, Cancer genomics, AI interpretability, Variant interpretation, Bio-LLMs
+  image: /assets/img/members/pallavi_surana.jpg
+  email: suranap@uchicago.edu
+  google_scholar: "https://scholar.google.com/citations?user=whPPR5UAAAAJ&hl=en"
+  website: "https://sites.google.com/view/pallavisurana/"
+  bio: "Computational biologist focused on understanding complex diseases and building necessary tools on the way."
