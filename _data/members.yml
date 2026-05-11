@@ -49,3 +49,13 @@
   google_scholar: "https://scholar.google.com/citations?user=whPPR5UAAAAJ&hl=en"
   website: "https://sites.google.com/view/pallavisurana/"
   bio: "Computational biologist focused on understanding complex diseases and building necessary tools on the way."
+
+- id: saikamalaksha_nimishakavi
+  name: SaiKamalaksha Nimishakavi
+  position: Undergraduate Research Assistant
+  research_interests: Bioinformatics, Machine Learning, Mathematical Modeling, Cybersecurity, Privacy-preserving AI
+  image: /assets/img/members/saikamalaksha_nimishakavi.jpg
+  email: snimi3@uic.edu
+  google_scholar: ""
+  website: "https://saikamalaksha.github.io/"
+  bio: "Undergraduate research assistant interested in bioinformatics and machine learning."
