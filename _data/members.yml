@@ -59,3 +59,13 @@
   google_scholar: ""
   website: "https://saikamalaksha.github.io/"
   bio: "Undergraduate research assistant interested in bioinformatics and machine learning."
+
+- id: Abhijit_Chunduru
+  name: Abhijit Chunduru
+  position: Graduate Research Assistant
+  research_interests: Federated learning, Probabilistic ML, Distributed Systems, Confidential Computing, Privacy-preserving ML
+  image: /assets/img/members/Abhijit_chunduru.jpeg
+  email: schunduru@umass.edu
+  google_scholar: "https://scholar.google.com/citations?user=oOMj49IAAAAJ&hl=en&oi=ao"
+  website: "https://abhijit4-debug.github.io/"
+  bio: "Graduate researcher in computer science working at the intersection of machine learning, distributed systems, and privacy-preserving AI."
