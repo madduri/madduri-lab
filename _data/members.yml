@@ -69,3 +69,12 @@
   google_scholar: "https://scholar.google.com/citations?user=oOMj49IAAAAJ&hl=en&oi=ao"
   website: "https://abhijit4-debug.github.io/"
   bio: "Graduate researcher in computer science working at the intersection of machine learning, distributed systems, and privacy-preserving AI."
+
+- id: matthew_joel
+  name: Matthew Joel
+  position: Predoctoral Appointee
+  research_interests: Machine learning, Privacy-preserving federated learning, Differential privacy, Multimodal biomedical learning, Statistical genetics & bioinformatics
+  image: /assets/img/members/matthew_joel.png
+  email: mjoel@anl.gov
+  google_scholar: "https://scholar.google.com/citations?user=1CBcnEEAAAAJ&hl=en"
+  bio: "Predoctoral appointee developing privacy-preserving federated learning and differential privacy methods for large-scale biomedical applications."
