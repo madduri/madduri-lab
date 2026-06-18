@@ -42,6 +42,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-12-20-website-launch.html";
+            },},{id: "news-best-paper-award-at-datacv-2026-workshop-cvpr-2026",
+          title: 'Best Paper Award at DataCV 2026 Workshop (CVPR 2026)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-06-03-datacv-best-paper.html";
             },},{id: "projects-large-scale-biomedical-discovery-through-hpc",
           title: 'Large-Scale Biomedical Discovery through HPC',
           description: "Enabling scientific questions to be addressed at unprecedented scale through high-performance computing and population-level biomedical datasets",
