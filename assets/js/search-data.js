@@ -31,7 +31,7 @@ ninja.data = [{
             window.location.href = "/group/";
           },
         },{id: "nav-software",
-          title: "Software",
+          title: "software",
           description: "Open-source software and platforms developed by Madduri Lab for privacy-preserving federated learning, genomics analysis, and scientific workflows.",
           section: "Navigation",
           handler: () => {
