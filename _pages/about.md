@@ -35,6 +35,6 @@ His research spans multiple domains:
 - **Computational Genomics**: GPU-accelerated analysis of large-scale genomic and transcriptomic data
 - **Scientific Workflows**: Creating reproducible pipelines for biomedical and scientific computing
 
-Dr. Madduri has published over 150 papers in leading journals and conferences, contributing to foundational advances in computational infrastructure, bioinformatics, and AI applications for healthcare. His work on frameworks like APPFL and MapperTrac enables privacy-preserving collaboration across institutions while maintaining high-performance capabilities.
+Madduri has published over 150 papers in leading journals and conferences, contributing to foundational advances in computational infrastructure, bioinformatics, and AI applications for healthcare. His work on frameworks like APPFL and MapperTrac enables privacy-preserving collaboration across institutions while maintaining high-performance capabilities.
 
 Current research interests include scaling AI models for biomedical applications, developing privacy-preserving methods for cross-institutional collaboration, and optimizing computational infrastructure for next-generation scientific discovery.
