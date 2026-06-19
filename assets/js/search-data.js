@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/group/";
           },
+        },{id: "nav-software",
+          title: "Software",
+          description: "Open-source software and platforms developed by Madduri Lab for privacy-preserving federated learning, genomics analysis, and scientific workflows.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/software/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "Curriculum Vitae",
@@ -37,7 +44,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-madduri-lab-website-launched",
+        },{id: "news-our-collaborative-work-on-genome-wide-association-study-of-prostate-specific-antigen-levels-in-392-522-men-was-published-in-nature-genetics-the-study-identifies-new-loci-and-improves-prediction-across-ancestry-groups",
+          title: 'Our collaborative work on genome-wide association study of prostate-specific antigen levels in 392,522...',
+          description: "",
+          section: "News",},{id: "news-our-work-on-the-va-doe-mvp-champion-collaboration-was-recognized-with-the-clinical-research-forum-s-top-10-clinical-research-achievement-award-for-2025",
+          title: 'Our work on the VA-DOE MVP-CHAMPION collaboration was recognized with the Clinical Research...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-appflx-enabling-end-to-end-secure-federated-learning-in-biomedical-research-on-heterogeneous-computing-environments-is-now-published-in-the-computational-and-structural-biotechnology-journal",
+          title: 'Our paper on APPFLx - enabling end-to-end secure federated learning in biomedical research...',
+          description: "",
+          section: "News",},{id: "news-madduri-lab-website-launched",
           title: 'Madduri Lab Website Launched',
           description: "",
           section: "News",handler: () => {
@@ -77,7 +93,28 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%72%6B%6D%61%64%64%75%72%69@%61%6E%6C.%67%6F%76", "_blank");
+          window.open("mailto:%6D%61%64%64%75%72%69@%61%6E%6C.%67%6F%76", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/madduri", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/ravimadduri", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0003-2788-5477", "_blank");
         },
       },{
         id: 'social-rss',
