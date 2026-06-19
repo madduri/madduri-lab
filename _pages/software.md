@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Software
+title: software
 permalink: /software/
 description: Open-source software and platforms developed by Madduri Lab for privacy-preserving federated learning, genomics analysis, and scientific workflows.
 nav: true
