@@ -102,6 +102,6 @@ Interested in using our software? Here are some resources:
 
 - **APPFL Documentation:** [appfl.ai](https://appfl.ai)
 - **APPFLx Access:** [appflx.link](https://appflx.link)
-- **Questions?** Contact us at [rkmadduri@anl.gov](mailto:rkmadduri@anl.gov)
+- **Questions?** Contact us at [madduri@anl.gov](mailto:madduri@anl.gov)
 
 We welcome contributions and collaborations. See individual repositories for contribution guidelines.
