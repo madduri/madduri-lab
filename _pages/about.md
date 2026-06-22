@@ -9,16 +9,11 @@ profile:
   image: ravi-madduri.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Senior Scientist and Group Leader</p>
-    <p>Argonne National Laboratory</p>
-    <p>Senior Scientist, Dept. of Human Genetics</p>
-    <p>University of Chicago</p>
-    <p>Adjunct Clinical Assistant Professor</p>
-    <p>Dept. of Bioengineering, UIUC</p>
-    <p>Research Scientist</p>
-    <p>Dept. of Veterans Affairs, Jesse Brown VA Medical Center</p>
-    <p>Senior Fellow</p>
-    <p>George Crabtree Institute, UIC</p>
+    <p>Senior Scientist and Group Leader, Argonne National Laboratory</p>
+    <p>Senior Scientist, Dept. of Human Genetics, University of Chicago</p>
+    <p>Adjunct Clinical Assistant Professor, Dept. of Bioengineering, UIUC</p>
+    <p>Research Scientist, Dept. of Veterans Affairs, Jesse Brown VA Medical Center</p>
+    <p>Senior Fellow, George Crabtree Institute, UIC</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
