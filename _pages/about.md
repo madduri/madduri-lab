@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Madduri Lab</a>. Argonne National Laboratory. Research. Innovation.
+subtitle: <a href='#'>Madduri Lab</a>.
 
 profile:
   align: right
