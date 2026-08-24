@@ -2,7 +2,7 @@
 layout: page
 title: National Cyberinfrastructure for Biomedical Data
 description: Building foundational infrastructure for secure, scalable data sharing and analysis across institutions
-img:
+img: assets/img/projects/cyberinfrastructure.svg
 importance: 2
 category: research
 github: https://github.com/globusgenomics

@@ -57,6 +57,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - Best Paper Award at CVPR (IEEE/CVF Conference on Computer Vision and Pattern Recognition)
     - year: 2025
       items:
         - Clinical Research Forum's Top 10 Clinical Research Achievement Award

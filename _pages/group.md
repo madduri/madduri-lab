@@ -41,6 +41,6 @@ nav_order: 4
 <div class="row mt-5">
   <div class="col-sm-12">
     <h3>Join Our Lab</h3>
-    <p>We are always looking for talented students, postdocs, and collaborators interested in computational science, AI, and biomedical research. If you're interested in joining our team or collaborating with us, please contact <a href="mailto:rkmadduri@anl.gov">Ravi Madduri</a>.</p>
+    <p>We are always looking for talented students, postdocs, and collaborators interested in computational science, AI, and biomedical research. If you're interested in joining our team or collaborating with us, please contact <a href="mailto:madduri@anl.gov">Ravi Madduri</a>.</p>
   </div>
 </div>

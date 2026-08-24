@@ -2,7 +2,7 @@
 layout: page
 title: Translating Advanced Computing into Biomedical Impact
 description: Leadership and coordination of multidisciplinary teams spanning national laboratories, federal agencies, and academic institutions
-img:
+img: assets/img/projects/leadership.svg
 importance: 5
 category: collaborations
 ---

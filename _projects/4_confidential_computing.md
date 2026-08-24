@@ -2,7 +2,7 @@
 layout: page
 title: Confidential Computing & Secure Learning Environments
 description: Establishing secure computing environments for advanced analytics on highly sensitive biomedical datasets
-img:
+img: assets/img/projects/confidential-computing.svg
 importance: 4
 category: research
 ---

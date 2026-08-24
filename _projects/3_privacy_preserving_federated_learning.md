@@ -2,7 +2,7 @@
 layout: page
 title: Privacy-Preserving Federated Learning
 description: Advancing trustworthy AI through federated learning frameworks that enable collaboration without centralizing sensitive data
-img:
+img: assets/img/projects/federated-learning.svg
 importance: 3
 category: research
 github: https://github.com/APPFL
