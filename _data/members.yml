@@ -78,3 +78,13 @@
   email: mjoel@anl.gov
   google_scholar: "https://scholar.google.com/citations?user=1CBcnEEAAAAJ&hl=en"
   bio: "Predoctoral appointee developing privacy-preserving federated learning and differential privacy methods for large-scale biomedical applications."
+
+  - id: fatema_siddika
+  name: Fatema Siddika
+  position: Research Aide (PhD)
+  research_interests: Federated Learning, Continual Learning, Representation Learning
+  image: /assets/img/members/fatema_siddika.jpg
+  email: fatemask@iastate.edu
+  google_scholar: "https://scholar.google.com/citations?user=P_kvQzMAAAAJ&hl=en"
+  website: "https://fatemasiddika.github.io"
+  bio: "Machine learning researcher exploring the intersection of distributed systems, federated continuous learning, and efficient model representations."
